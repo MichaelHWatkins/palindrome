@@ -9,10 +9,10 @@ namespace Palindrome
       
       if(input.SequenceEqual(input.Reverse()))
       {
-        return false;
+        return true;
       }
       else{
-        return true;
+        return false;
       }
     }
   }
